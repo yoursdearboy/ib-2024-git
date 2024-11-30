@@ -17,6 +17,20 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Планы на вечер
+
+- Поговорим про `Git`
+- Создадим идеальный проект
+- Закоммитим его и запушим на GitHub
+- Поговорим про `renv`
+- Сделаем пулл реквест (pull request, PR)
+- ????
+- PROFIT
+
+::: notes
+Будет весело.
+:::
+
 # Зачем нужен Git?
 
 ## Для вашего резюме
@@ -62,6 +76,97 @@ Exposure
 - GitHub
 - GitLab
 - Bitbucket
+
+# Создаем проект
+
+![](img/new-project-1.png){width=200}
+![](img/new-project-2.png){width=300}
+
+![](img/new-project-3.png){width=300}
+![](img/new-project-4.png){width=300}
+
+Сверьте галочки на последнем экране!
+
+# Что мы создали?
+
+::: notes
+Расказать про staging.
+
+Галочками добавляем файлы в staging и они становятся зелеными.
+:::
+
+![](img/project-1.png){width=500}
+
+##
+
+**.Rprofile**
+
+```r
+source("renv/activate.R")
+```
+
+**renv**
+
+```
+.gitignore
+activate.R
+library
+settings.json
+```
+
+::: {.fragment}
+![](img/project-2.png){width=500}
+:::
+
+##
+
+**renv.lock**
+
+```json
+{
+  "R": {
+    "Version": "4.4.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
+    }
+  }
+}
+```
+
+##
+
+**.gitignore**
+
+```
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+```
+
+##
+
+**hello-world.Rproj**
+
+::: {.fragment}
+![](img/project-3.png)
+:::
+
 
 # Что такое репозиторий?
 
