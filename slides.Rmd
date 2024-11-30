@@ -1,0 +1,57 @@
+---
+title: "Git and Friends"
+author: "Kirill Voronin <imvoroninkir@gmail.com>"
+output:
+  revealjs::revealjs_presentation:
+    css: styles.css
+    # self_contained: false
+    # reveal_plugins: ["notes"]
+    theme: default
+    transition: none
+date: "`r Sys.Date()`"
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Git
+
+- Зачем?
+- В чем разница между Git и GitHub
+
+## Для вашего резюме
+
+![](img/ddsjoberg.png)
+
+::: notes
+Exposure
+:::
+
+## Для совместной работы
+
+![](img/final-doc.jpg)
+
+::: notes
+Может лучше почта? Нет.
+
+Это как Google Docs.
+:::
+
+## Для организации работы одному
+
+::: notes
+Одна задача - один коммит.
+
+В худшем случае всегда есть рабочие запушенные файлы.
+:::
+
+## В чем разница между
+
+- Git
+
+- GitHub
+- GitLab
+- Bitbucket
