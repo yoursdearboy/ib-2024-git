@@ -17,10 +17,7 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Git
-
-- Зачем?
-- В чем разница между Git и GitHub
+# Зачем нужен Git?
 
 ## Для вашего резюме
 
@@ -58,10 +55,30 @@ Exposure
 
 ![](img/issue-2-closed.png)
 
-## В чем разница между
+# В чем разница
 
 - Git
 
 - GitHub
 - GitLab
 - Bitbucket
+
+# Что такое репозиторий?
+
+![](img/repo-local.png){width=800}
+
+## Что такое remote репозиторий?
+
+![](img/repo-remote.png){width=800}
+
+## Склонируйте
+
+![](img/clone-1.png){width=200}
+![](img/clone-2.png){width=300}
+
+![](img/clone-3.png){width=300}
+![](img/clone-4.png){width=300}
+
+```
+https://github.com/yoursdearboy/ib-2024-git.git
+```
