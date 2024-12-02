@@ -4,6 +4,12 @@
 
 Использованные источники ниже.
 
+# Софт
+
+- GitKraken - космический корабль по управлению гитом, но довольно friendly
+- GitHub Desktop - простой, но нету merge в 3-х окнах
+- [ClaudioZandonella/trackdown](https://github.com/ClaudioZandonella/trackdown) - workflow поверх Google Docs; я думаю клево для взаимодействия с коллабораторами не умеющими в git или для очень активного совместного редактирования (Google Docs)
+
 # References
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
