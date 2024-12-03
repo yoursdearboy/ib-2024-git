@@ -19,4 +19,4 @@
 - [rstats-wtf/wtf-project-oriented-workflow-slides](https://github.com/rstats-wtf/wtf-project-oriented-workflow-slides)
 - [rstats-wtf/wtf-personal-radmin-slides](https://github.com/rstats-wtf/wtf-personal-radmin-slides)
 - [rstats-wtf/wtf-2022-rsc](https://github.com/rstats-wtf/wtf-2022-rsc) - более подробные презенташки, см. materials
-
+- [Billboard Hot 100 & more](https://www.kaggle.com/datasets/ludmin/billboard)
